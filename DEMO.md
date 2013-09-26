@@ -19,7 +19,6 @@ In this demo, you will see how to:
 <a name="setup" />
 ### Setup and Configuration ###
 
-**TO IMPROVE**
 Follow these steps to setup your environment for the demo.
 
 1. Open the **GeekQuiz.sln** solution located under **source/begin**.
@@ -126,6 +125,19 @@ This demo is composed of the following segments:
 ### Snippets and Intellisense ###
 
 1. Switch back to the **Index.cshtml** editor.
+
+1. Add the following code inside the `<section>` element.
+
+	````HTML
+	<form>
+		 <input type="text" id="name" />
+	</form>
+	````
+1. Type `<label for="` inside the `<form>` element. As shown in the following figure, there is intellisense based on the Id of elements within the same valid scope (the `<form>`).
+
+	![Id Intellisense](Images/id-intellisense.png?raw=true)
+
+1. Delete the recently added `<form>` element and all its content.
 
 1. Type `<aud` inside the `<section>` element as shown in the following figure.
 
