@@ -21,6 +21,8 @@ In this demo, you will see how to:
 
 Follow these steps to setup your environment for the demo.
 
+1. Install **Web Essentials 2013** (if it is not already installed).
+
 1. Open the **GeekQuiz.sln** solution located under **source/begin**.
 
 1. If you don't have a user account, launch the application and register one.
@@ -49,13 +51,15 @@ This demo is composed of the following segments:
 
 1. Hold down **CTRL** and select **Google Chrome and Internet Explorer**.
 
-	![Multiple Browsers](Images/multiple-browsers.png?raw=true)
+	![Selecting multiple browsers](Images/multiple-browsers.png?raw=true "Selecting multiple browsers")
+	
+	_Selecting multiple browsers_
 
 1. Click **Set as Default** and click **Cancel**.
 
 1. Press **CTRL + F5** to start debugging.
 
-1. Replace the `<!-- TODO: add options here-->` comment with the following code snippet and press **TAB**.
+1. Replace the `<!-- TODO: add options here-->` comment in the **index.cshtml** file with the following code snippet and press **TAB**.
 	
 	<!-- mark:1 -->
 	````HTML
@@ -64,7 +68,9 @@ This demo is composed of the following segments:
 
 1. Click the Browser Link **Refresh** button.
 
-	![Refresh Browser Link](Images/refresh-browser-link.png?raw=true)
+	![Refreshing Linked Browsers](Images/refresh-browser-link.png?raw=true "Refreshing Linked Browsers")
+
+	_Refreshing Linked Browsers_
 
 1. Click **Internet Explorer** (to set focus on it) and press **CTRL + ALT + I**.
 	
@@ -72,29 +78,41 @@ This demo is composed of the following segments:
 
 1. Place the mouse over the light blue border and click on it, as shown in the following figure.
 
-	![Inspect Border](Images/inspect-border.png?raw=true)
+	![Inspecting the Border](Images/inspect-border.png?raw=true "Inspecting the Border")
+
+	_Inspecting the Border_
 
 	> **Speaking point:** Note that the element and its children are highlighted in Visual Studio. Now we know which CSS class we need to change.
 
 1. Back in Visual Studio, press **CTRL + ,**,  type _site.css_ and press **ENTER**.
 
-	![Opening Site.css](Images/opening-sitecss.png?raw=true)
+	![Opening the Site.css file](Images/opening-sitecss.png?raw=true "Opening the Site.css file")
+	
+	_Opening the Site.css file_
 
 1. Scroll to the bottom of the file.
 
-	![Bottom](Images/bottom.png?raw=true)
+	![Scrolling to the botton of the file](Images/bottom.png?raw=true "Scrolling to the botton of the file")
+
+	_Scrolling to the botton of the file_
 
 1. Click the light blue square that is part of the border property of the `.flip-container .front` class.
 
-	![Color Picker](Images/color-picker.png?raw=true)
+	![Opening the Color Picker](Images/color-picker.png?raw=true "Opening the Color Picker")
+	
+	_Opening the Color Picker_
 
 1. Expand the color picker by clicking the button with the chevrons, circled in the following figure.
 
-	![Expand Color Picker](Images/expand-color-picker.png?raw=true)
+	![Expanding the Color Picker](Images/expand-color-picker.png?raw=true "Expanding the Color Picker")
+
+	_Expanding the Color Picker_
 
 1. Select a new color, close the color picker and press **CTRL + ALT + ENTER** to update the browsers.
 
-	![Update Border](Images/update-border.png?raw=true)
+	![Updating the Border color](Images/update-border.png?raw=true "Updating the Border color")
+	
+	_Updating the Border color_
 
 1. Open the **Index.cshtml** editor.
 
@@ -102,9 +120,11 @@ This demo is composed of the following segments:
 
 1. Place the mouse over the question's title and click on it, as shown in the following figure.
 
-	![Edit Question](Images/edit-question.png?raw=true)
+	![Editing the Question](Images/edit-question.png?raw=true "Editing the Question")
 
-1. Update the original text with _What does it look like when a write a longer question?_.
+	_Editing the Question_
+
+1. Update the original text with _What does it look like when I write a longer question?_.
 
 	> **Speaking point:** Explain that the VS editor is updated and changes are saved automatically.
 
@@ -113,7 +133,9 @@ This demo is composed of the following segments:
 
 1. Expand the **Error List** window and double-click the SEO related warning.
 
-	![SEO Error](Images/seo-error.png?raw=true)
+	![Opening the SEO warning](Images/seo-error.png?raw=true "Opening the SEO warning")
+	
+	_Opening the SEO warning_
 	
 1. When asked if you would like to insert a `<meta>` tag, click **Yes**. The editor for **\_Layout.cshtml** is opened an the following code is automatically added.
 
@@ -135,13 +157,17 @@ This demo is composed of the following segments:
 	````
 1. Type `<label for="` inside the `<form>` element. As shown in the following figure, there is intellisense based on the Id of elements within the same valid scope (the `<form>`).
 
-	![Id Intellisense](Images/id-intellisense.png?raw=true)
+	![Showing the id Intellisense](Images/id-intellisense.png?raw=true "Showing the id Intellisense")
+
+	_Showing the id Intellisense_
 
 1. Delete the recently added `<form>` element and all its content.
 
 1. Type `<aud` inside the `<section>` element as shown in the following figure.
 
-	![Audio Element](Images/audio-element.png?raw=true)
+	![Inserting a audio element](Images/audio-element.png?raw=true "Inserting a audio element")
+
+	_Inserting a audio element_
 
 	> **Note:** This demo segment adds an `<audio>` element to the page to showcase HTML 5 snippet support. This is meant to be a joke and the changes will be deleted, since we don't actually want to add audio to the site.
 
@@ -173,7 +199,9 @@ http://media.ch9.ms/ch9/11d8/604b8163-fad3-4f12-9607-b404201211d8/KatanaProject.
 
 1. In **Solution Explorer**, right-click the **Scripts** folder, expand the **Add** menu and select **JavaScript File**.
 
-	![Adding Javascript File](Images/adding-javascript-file.png?raw=true)
+	![Adding a Javascript File](Images/adding-javascript-file.png?raw=true "Adding a Javascript File]")
+
+	_Adding a Javascript File]_
 
 1. Name the file _init_ and click **OK**.
 
@@ -190,17 +218,23 @@ http://media.ch9.ms/ch9/11d8/604b8163-fad3-4f12-9607-b404201211d8/KatanaProject.
 
 1. Type `document.getElementsByClassName("")` in the first line of the ready callback, as shown in the following figure.
 
-	![ByClassName](Images/byclassname.png?raw=true)
+	![Showing Intellisense for the getElementsByClassName method](Images/byclassname.png?raw=true "Showing Intellisense for the getElementsByClassName method")
+
+	_Showing Intellisense for the getElementsByClassName method_
 
 1. Delete that line.
 
 1. Type `var audioElements = document.getElementsByTagName("au")` in the first link of the ready callback, as shown in the following figure.
 
-	![GetElementByTagName](Images/getelementbytagname.png?raw=true)
+	![Showing Intellisense for the GetElementByTagName method](Images/getelementbytagname.png?raw=true "Showing Intellisense for the GetElementByTagName method")
+
+	_Showing Intellisense for the GetElementByTagName method_
 
 1. Select **"audio"** and press **Enter**. The result is shown in the following figure.
 
-	![Retrieve Audio Elements](Images/retrieve-audio-elements.png?raw=true)
+	![Retrieving Audio Elements](Images/retrieve-audio-elements.png?raw=true "Retrieving Audio Elements")
+
+	_Retrieving Audio Elements_
 
 1. Add the following code below the line you just typed.
 	
