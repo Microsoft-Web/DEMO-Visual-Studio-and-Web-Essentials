@@ -1,4 +1,4 @@
-﻿# Building a SPA interface using Ember.js #
+﻿# Visual Studio and Web Essentials - Web Tooling #
 
 ## Demo ##
 
