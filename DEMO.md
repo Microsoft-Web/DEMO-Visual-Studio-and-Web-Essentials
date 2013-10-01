@@ -63,7 +63,7 @@ This demo is composed of the following segments:
 	
 	<!-- mark:1 -->
 	````HTML
-	button.btn-info.option{Answer $}*4
+	button.btn.btn-info.btn-lg.option{Answer $}*4
 	````
 
 1. Click the Browser Link **Refresh** button.
