@@ -5,9 +5,17 @@
 <a name="Overview" />
 ## Overview ##
 
+In this demo you will perform several changes to GeekQuiz in order to showcase top web developer featuers included in the new version of Visual Studio and Web Essentials.  
+
 <a id="goals" />
 ### Goals ###
-In this demo, you will see how to:
+
+In this demo, you will see:
+
+1. The new HTML editor features, including HTML 5 snippets and zen coding 
+1. The new CSS editor features, including Color
+1. Browser Link and the extension support for it
+1. IDs and classes Intellisense in JavaScript
 
 <a name="technologies" />
 ### Key Technologies ###
@@ -262,12 +270,20 @@ http://media.ch9.ms/ch9/11d8/604b8163-fad3-4f12-9607-b404201211d8/KatanaProject.
 	> **Speaking point:** We don't really want our site to have audio (it seems a bit 1990s), so let's get rid of these things we have added.
 
 
+---
 
+<a name="summary" />
+## Summary ##
 
+By completing this demo you should have showcased the featuers included in the new version of Visual Studio and Web Essentials while updating GeekQuiz:
 
-	
+1. Zen Coding for creating the buttons
+1. CSS Color Picke for updating the color of the container's border
+1. Browser Link to refresh changes done in Visual Studio automatically
+1. Browser Link Extensions to reflect changes done in the browser in the source code
+1. SEO warnings
+1. IDs and JavaScript Intellisense
+1. HTML 5 code snippets for adding audio
 
-
-
-
+---
 
