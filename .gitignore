@@ -51,3 +51,4 @@ coverage
 packages
 *.docstates
 *.InstallLog
+Thumbs.db
